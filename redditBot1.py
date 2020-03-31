@@ -40,8 +40,6 @@ def filterText(raw_recipe_text):
     #recipe to return
     recipe = []
 
-    #print(raw_recipe_text)
-
     #ingredients Dict
     ing_dict = {}
 
