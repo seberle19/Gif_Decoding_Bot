@@ -98,6 +98,11 @@ def increaseContrast(image_list, path):
 
 
 def remove_converted_images(path):
+    '''
+    Function that removes saved images at the end of the program so images
+    are not stored after they become useless.
+    Returns: Nothing
+    '''
 
     for filename in os.listdir(path):
         file_path = os.path.join(path, filename)
